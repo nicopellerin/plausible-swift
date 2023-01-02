@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1BCFFA729634D9400418440 /* Plausible_Lite_SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BCFFA629634D9400418440 /* Plausible_Lite_SwiftApp.swift */; };
+		E1BCFFA929634D9400418440 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BCFFA829634D9400418440 /* ContentView.swift */; };
+		E1BCFFAB29634D9600418440 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BCFFAA29634D9600418440 /* Assets.xcassets */; };
+		E1BCFFAE29634D9600418440 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BCFFAD29634D9600418440 /* Preview Assets.xcassets */; };
+		E1BCFFB929634D9600418440 /* Plausible_Lite_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BCFFB829634D9600418440 /* Plausible_Lite_SwiftTests.swift */; };
+		E1BCFFC329634D9600418440 /* Plausible_Lite_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BCFFC229634D9600418440 /* Plausible_Lite_SwiftUITests.swift */; };
+		E1BCFFC529634D9600418440 /* Plausible_Lite_SwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BCFFC429634D9600418440 /* Plausible_Lite_SwiftUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1BCFFB529634D9600418440 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1BCFF9B29634D9400418440 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1BCFFA229634D9400418440;
+			remoteInfo = "Plausible Lite Swift";
+		};
+		E1BCFFBF29634D9600418440 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1BCFF9B29634D9400418440 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1BCFFA229634D9400418440;
+			remoteInfo = "Plausible Lite Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1BCFFA329634D9400418440 /* Plausible Lite Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plausible Lite Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BCFFA629634D9400418440 /* Plausible_Lite_SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plausible_Lite_SwiftApp.swift; sourceTree = "<group>"; };
+		E1BCFFA829634D9400418440 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1BCFFAA29634D9600418440 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1BCFFAD29634D9600418440 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1BCFFAF29634D9600418440 /* Plausible_Lite_Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Plausible_Lite_Swift.entitlements; sourceTree = "<group>"; };
+		E1BCFFB429634D9600418440 /* Plausible Lite SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plausible Lite SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BCFFB829634D9600418440 /* Plausible_Lite_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plausible_Lite_SwiftTests.swift; sourceTree = "<group>"; };
+		E1BCFFBE29634D9600418440 /* Plausible Lite SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plausible Lite SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BCFFC229634D9600418440 /* Plausible_Lite_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plausible_Lite_SwiftUITests.swift; sourceTree = "<group>"; };
+		E1BCFFC429634D9600418440 /* Plausible_Lite_SwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plausible_Lite_SwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1BCFFA029634D9400418440 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BCFFB129634D9600418440 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BCFFBB29634D9600418440 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1BCFF9A29634D9400418440 = {
+			isa = PBXGroup;
+			children = (
+				E1BCFFA529634D9400418440 /* Plausible Lite Swift */,
+				E1BCFFB729634D9600418440 /* Plausible Lite SwiftTests */,
+				E1BCFFC129634D9600418440 /* Plausible Lite SwiftUITests */,
+				E1BCFFA429634D9400418440 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1BCFFA429634D9400418440 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1BCFFA329634D9400418440 /* Plausible Lite Swift.app */,
+				E1BCFFB429634D9600418440 /* Plausible Lite SwiftTests.xctest */,
+				E1BCFFBE29634D9600418440 /* Plausible Lite SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1BCFFA529634D9400418440 /* Plausible Lite Swift */ = {
+			isa = PBXGroup;
+			children = (
+				E1BCFFA629634D9400418440 /* Plausible_Lite_SwiftApp.swift */,
+				E1BCFFA829634D9400418440 /* ContentView.swift */,
+				E1BCFFAA29634D9600418440 /* Assets.xcassets */,
+				E1BCFFAF29634D9600418440 /* Plausible_Lite_Swift.entitlements */,
+				E1BCFFAC29634D9600418440 /* Preview Content */,
+			);
+			path = "Plausible Lite Swift";
+			sourceTree = "<group>";
+		};
+		E1BCFFAC29634D9600418440 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E1BCFFAD29634D9600418440 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E1BCFFB729634D9600418440 /* Plausible Lite SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1BCFFB829634D9600418440 /* Plausible_Lite_SwiftTests.swift */,
+			);
+			path = "Plausible Lite SwiftTests";
+			sourceTree = "<group>";
+		};
+		E1BCFFC129634D9600418440 /* Plausible Lite SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1BCFFC229634D9600418440 /* Plausible_Lite_SwiftUITests.swift */,
+				E1BCFFC429634D9600418440 /* Plausible_Lite_SwiftUITestsLaunchTests.swift */,
+			);
+			path = "Plausible Lite SwiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1BCFFA229634D9400418440 /* Plausible Lite Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BCFFC829634D9600418440 /* Build configuration list for PBXNativeTarget "Plausible Lite Swift" */;
+			buildPhases = (
+				E1BCFF9F29634D9400418440 /* Sources */,
+				E1BCFFA029634D9400418440 /* Frameworks */,
+				E1BCFFA129634D9400418440 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Plausible Lite Swift";
+			productName = "Plausible Lite Swift";
+			productReference = E1BCFFA329634D9400418440 /* Plausible Lite Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1BCFFB329634D9600418440 /* Plausible Lite SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BCFFCB29634D9600418440 /* Build configuration list for PBXNativeTarget "Plausible Lite SwiftTests" */;
+			buildPhases = (
+				E1BCFFB029634D9600418440 /* Sources */,
+				E1BCFFB129634D9600418440 /* Frameworks */,
+				E1BCFFB229634D9600418440 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1BCFFB629634D9600418440 /* PBXTargetDependency */,
+			);
+			name = "Plausible Lite SwiftTests";
+			productName = "Plausible Lite SwiftTests";
+			productReference = E1BCFFB429634D9600418440 /* Plausible Lite SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1BCFFBD29634D9600418440 /* Plausible Lite SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BCFFCE29634D9600418440 /* Build configuration list for PBXNativeTarget "Plausible Lite SwiftUITests" */;
+			buildPhases = (
+				E1BCFFBA29634D9600418440 /* Sources */,
+				E1BCFFBB29634D9600418440 /* Frameworks */,
+				E1BCFFBC29634D9600418440 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1BCFFC029634D9600418440 /* PBXTargetDependency */,
+			);
+			name = "Plausible Lite SwiftUITests";
+			productName = "Plausible Lite SwiftUITests";
+			productReference = E1BCFFBE29634D9600418440 /* Plausible Lite SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1BCFF9B29634D9400418440 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E1BCFFA229634D9400418440 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E1BCFFB329634D9600418440 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E1BCFFA229634D9400418440;
+					};
+					E1BCFFBD29634D9600418440 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E1BCFFA229634D9400418440;
+					};
+				};
+			};
+			buildConfigurationList = E1BCFF9E29634D9400418440 /* Build configuration list for PBXProject "Plausible Lite Swift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1BCFF9A29634D9400418440;
+			productRefGroup = E1BCFFA429634D9400418440 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1BCFFA229634D9400418440 /* Plausible Lite Swift */,
+				E1BCFFB329634D9600418440 /* Plausible Lite SwiftTests */,
+				E1BCFFBD29634D9600418440 /* Plausible Lite SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1BCFFA129634D9400418440 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BCFFAE29634D9600418440 /* Preview Assets.xcassets in Resources */,
+				E1BCFFAB29634D9600418440 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BCFFB229634D9600418440 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BCFFBC29634D9600418440 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1BCFF9F29634D9400418440 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BCFFA929634D9400418440 /* ContentView.swift in Sources */,
+				E1BCFFA729634D9400418440 /* Plausible_Lite_SwiftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BCFFB029634D9600418440 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BCFFB929634D9600418440 /* Plausible_Lite_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BCFFBA29634D9600418440 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BCFFC529634D9600418440 /* Plausible_Lite_SwiftUITestsLaunchTests.swift in Sources */,
+				E1BCFFC329634D9600418440 /* Plausible_Lite_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1BCFFB629634D9600418440 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1BCFFA229634D9400418440 /* Plausible Lite Swift */;
+			targetProxy = E1BCFFB529634D9600418440 /* PBXContainerItemProxy */;
+		};
+		E1BCFFC029634D9600418440 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1BCFFA229634D9400418440 /* Plausible Lite Swift */;
+			targetProxy = E1BCFFBF29634D9600418440 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E1BCFFC629634D9600418440 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1BCFFC729634D9600418440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E1BCFFC929634D9600418440 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Plausible Lite Swift/Plausible_Lite_Swift.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Plausible Lite Swift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicopellerin.Plausible-Lite-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E1BCFFCA29634D9600418440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Plausible Lite Swift/Plausible_Lite_Swift.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Plausible Lite Swift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicopellerin.Plausible-Lite-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E1BCFFCC29634D9600418440 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicopellerin.Plausible-Lite-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plausible Lite Swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Plausible Lite Swift";
+			};
+			name = Debug;
+		};
+		E1BCFFCD29634D9600418440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicopellerin.Plausible-Lite-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plausible Lite Swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Plausible Lite Swift";
+			};
+			name = Release;
+		};
+		E1BCFFCF29634D9600418440 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicopellerin.Plausible-Lite-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Plausible Lite Swift";
+			};
+			name = Debug;
+		};
+		E1BCFFD029634D9600418440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicopellerin.Plausible-Lite-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Plausible Lite Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1BCFF9E29634D9400418440 /* Build configuration list for PBXProject "Plausible Lite Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BCFFC629634D9600418440 /* Debug */,
+				E1BCFFC729634D9600418440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1BCFFC829634D9600418440 /* Build configuration list for PBXNativeTarget "Plausible Lite Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BCFFC929634D9600418440 /* Debug */,
+				E1BCFFCA29634D9600418440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1BCFFCB29634D9600418440 /* Build configuration list for PBXNativeTarget "Plausible Lite SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BCFFCC29634D9600418440 /* Debug */,
+				E1BCFFCD29634D9600418440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1BCFFCE29634D9600418440 /* Build configuration list for PBXNativeTarget "Plausible Lite SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BCFFCF29634D9600418440 /* Debug */,
+				E1BCFFD029634D9600418440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1BCFF9B29634D9400418440 /* Project object */;
+}
