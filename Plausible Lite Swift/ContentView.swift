@@ -256,13 +256,15 @@ struct AppView: View {
             }.frame(width: 340)
             
         }
-//        .onAppear {
-//            Api().getStats(pData: pData) { (stats) in
-//                print("STATS", stats)
-//                self.visitors = stats.results.visitors.value
-//                self.pageviews = stats.results.pageviews.value
-//            }
-//        }
+        .onAppear {
+            if !pData.apiKey.isEmpty && !pData.siteId.isEmpty {
+                Api().getStats(pData: pData) { (stats) in
+                    print("STATS", stats)
+                    self.visitors = stats.results.visitors.value
+                    self.pageviews = stats.results.pageviews.value
+                }
+            }
+        }
         .frame(width: 400, height: 235)
     }
 }
