@@ -14,6 +14,8 @@
 		E1BCFFB929634D9600418440 /* Plausible_Lite_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BCFFB829634D9600418440 /* Plausible_Lite_SwiftTests.swift */; };
 		E1BCFFC329634D9600418440 /* Plausible_Lite_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BCFFC229634D9600418440 /* Plausible_Lite_SwiftUITests.swift */; };
 		E1BCFFC529634D9600418440 /* Plausible_Lite_SwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BCFFC429634D9600418440 /* Plausible_Lite_SwiftUITestsLaunchTests.swift */; };
+		E1BCFFD32963845800418440 /* Pigeon in Frameworks */ = {isa = PBXBuildFile; productRef = E1BCFFD22963845800418440 /* Pigeon */; };
+		E1BCFFD5296480D800418440 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BCFFD4296480D800418440 /* AppStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,7 @@
 		E1BCFFBE29634D9600418440 /* Plausible Lite SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plausible Lite SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BCFFC229634D9600418440 /* Plausible_Lite_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plausible_Lite_SwiftUITests.swift; sourceTree = "<group>"; };
 		E1BCFFC429634D9600418440 /* Plausible_Lite_SwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plausible_Lite_SwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1BCFFD4296480D800418440 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1BCFFD32963845800418440 /* Pigeon in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +101,7 @@
 			children = (
 				E1BCFFA629634D9400418440 /* Plausible_Lite_SwiftApp.swift */,
 				E1BCFFA829634D9400418440 /* ContentView.swift */,
+				E1BCFFD4296480D800418440 /* AppStore.swift */,
 				E1BCFFAA29634D9600418440 /* Assets.xcassets */,
 				E1BCFFAF29634D9600418440 /* Plausible_Lite_Swift.entitlements */,
 				E1BCFFAC29634D9600418440 /* Preview Content */,
@@ -145,6 +150,9 @@
 			dependencies = (
 			);
 			name = "Plausible Lite Swift";
+			packageProductDependencies = (
+				E1BCFFD22963845800418440 /* Pigeon */,
+			);
 			productName = "Plausible Lite Swift";
 			productReference = E1BCFFA329634D9400418440 /* Plausible Lite Swift.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +225,9 @@
 				Base,
 			);
 			mainGroup = E1BCFF9A29634D9400418440;
+			packageReferences = (
+				E1BCFFD12963845800418440 /* XCRemoteSwiftPackageReference "Pigeon" */,
+			);
 			productRefGroup = E1BCFFA429634D9400418440 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1BCFFD5296480D800418440 /* AppStore.swift in Sources */,
 				E1BCFFA929634D9400418440 /* ContentView.swift in Sources */,
 				E1BCFFA729634D9400418440 /* Plausible_Lite_SwiftApp.swift in Sources */,
 			);
@@ -568,6 +580,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E1BCFFD12963845800418440 /* XCRemoteSwiftPackageReference "Pigeon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fmo91/Pigeon.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E1BCFFD22963845800418440 /* Pigeon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1BCFFD12963845800418440 /* XCRemoteSwiftPackageReference "Pigeon" */;
+			productName = Pigeon;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E1BCFF9B29634D9400418440 /* Project object */;
 }
